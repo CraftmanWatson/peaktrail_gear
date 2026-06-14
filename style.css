@@ -13,12 +13,14 @@ body {
     height: 125px;
     background: #F7F6F2;
     box-shadow: 5px 0px 10px rgba(1,1,1,0.1);
+    z-index: 99;
 }
 .header-container {
     margin: 0px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 99;
 }
 .header-container .navBtn {
     display: none;
@@ -260,6 +262,7 @@ body {
         height: 100vh;
         background: #F7F6F2;
         display: none;
+        z-index: 99;
     }
     .header-container .nav.active {
         display: block;
