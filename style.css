@@ -119,7 +119,9 @@ body {
     scale: 0.95;
 }
 .about {
-    margin: 40px 400px;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -130,7 +132,9 @@ body {
     margin: 0px;
 }
 .form {
-    margin: 40px 500px;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
 }
 .form .input-label {
     display: flex;
